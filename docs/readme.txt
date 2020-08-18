@@ -13,9 +13,9 @@ Change size to something bigger like 0.1 or whatever to see the laser visualisat
 Obviously, to see something, you must add some objects in gazebo (like a sphere or cube)
 
 To view camera feed in RViz-
-Not the topic where camera feed is being published: /IEEE_sample_bot/camera/image_raw
-In Rviz, click on add in the bottom left corner and select Camera
-Expand the Camera tab and set the topic as above
+Note the topic where camera feed is being published: /IEEE_sample_bot/camera/image_raw
+In Rviz, click on add in the bottom left corner and select Image
+Expand the Image tab and set the topic as above
 
 In control/scripts you'll find two files:
 publisher
