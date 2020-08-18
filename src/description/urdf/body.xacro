@@ -4,7 +4,7 @@
             xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
             xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface">
 
-  <!-- <xacro:include filename="/home/raghav/IEEE_sample_bot/src/sauntr_description/urdf/sauntr_plugins.xacro"/> -->
+  <xacro:include filename="/home/raghav/IEEE_sample_bot/src/description/urdf/plugins.xacro"/>
 
   <!-- DEFINING GENERIC PROPERTIES THAT ARE USED IN THE XACRO FILE -->
 

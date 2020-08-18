@@ -30,7 +30,7 @@
         <updateRate>0.0</updateRate>
         <cameraName>/camera</cameraName>
         <imageTopicName>image_raw</imageTopicName>
-        <robotNamespace>sauntr</robotNamespace>
+        <robotNamespace>IEEE_sample_bot</robotNamespace>
         <cameraInfoTopicName>camera_info</cameraInfoTopicName>
         <frameName>camera</frameName>
         <hackBaseline>0.07</hackBaseline>
@@ -74,7 +74,7 @@
         </noise>
       </ray>
       <plugin name="gazebo_ros_head_hokuyo_controller" filename="libgazebo_ros_laser.so">
-        <topicName>/sauntr/laser/scan</topicName>
+        <topicName>/IEEE_sample_bot/laser/scan</topicName>
         <frameName>base_link</frameName>
 </plugin>
     </sensor>
